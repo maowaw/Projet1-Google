@@ -1,0 +1,63 @@
+div{
+	font-family Arial;
+}
+
+#en-tete{
+	display:flex;
+	justify-content:flex-end;
+}
+
+#footer{
+	position: fixed;
+	bottom:0;
+	right:0;
+	left:0;
+}
+
+#centre{
+	border: 210px solid white;
+}
+
+.logo{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	border-bottom: 10px solid white;
+}
+
+.recherche{
+	display:flex; 
+	justify-content:center;
+}
+
+.langage{
+	display:flex;
+	justify-content:flex-start;
+	background-color: silver;
+}
+
+
+.bas-page-d{
+	display:flex;
+	justify-content:flex-end;
+}
+
+.bas-page-g{
+	display:flex;
+	justify-content:flex-start;
+	bottom:0;
+}
+
+.lien{
+	border-right:solid white 10px;
+}
+
+.connexion{
+	background-color: #2DACD6;
+	color: white;
+	font-style: normal;
+}
+
+.border-flex {
+  border: 2px solid white;
+}
